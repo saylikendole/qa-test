@@ -1,0 +1,27 @@
+.itemContainter {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.item {
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: gray;
+  height: 80px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemName {
+  color: blue;
+  font-size: 24px;
+  font-weight: bold;
+}
